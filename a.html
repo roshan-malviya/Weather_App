@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app</title>
+    <style>
+/* * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} */
+*{
+    text-align: center;
+}
+.degree h1{
+    margin: 100px
+
+}
+body{
+    background-image:linear-gradient(red,blue) ;
+    height: 100vh;
+}
+
+
+
+    </style>
+    
+</head>
+<body>
+    <!-- <input type="text" id="My-inp" value="Me"> -->
+    <div class='search-box'>
+        <input class="search-val"  id='hey' type="search"  placeholder="Search by City" aria-label="Search">
+        <button onclick='func()' type="submit"  class="search-city">Search</button>
+    </div>
+    <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">_?</h2>
+            
+        </div>
+        <div class="temperature-description">Its Cold</div>
+    </div>
+    <script src="ind.js"></script>
+</body>
+
+</html>
